@@ -15,7 +15,6 @@
 </head>
 
 <body>
-
     <div id="app">
         <div class="container mt-4">
             <h1 class="text-center mb-3">ToDo List</h1>
@@ -25,16 +24,11 @@
                         <li class="list-group-item" v-for="todo in todoList">
                             {{ todo.text }}
                         </li>
-
                     </ul>
                 </div>
-
             </div>
         </div>
-
     </div>
-
-
     <script src="js/script.js"></script>
 </body>
 
