@@ -25,6 +25,8 @@
                             {{ todo.text }}
                         </li>
                     </ul>
+                    <input type="text" class="form-control-lg mt-4" v-model="newTodo">
+                    <button class="btn btn-secondary ms-3" @click="addNewToDo">Add</button>
                 </div>
             </div>
         </div>
