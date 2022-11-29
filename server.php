@@ -35,4 +35,4 @@ $todos = [
 
 $todos_json = json_encode($todos);
 header("Content-Type: application/json");
-echo $todos_json;
+echo json_encode($todos);
