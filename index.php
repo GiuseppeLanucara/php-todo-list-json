@@ -22,7 +22,9 @@
             <div class="row justify-content-center">
                 <div class="col-6">
                     <ul class="list-group">
-                        <li class="list-group-item" v-for="todo in todoList">{{todo}}</li>
+                        <li class="list-group-item" v-for="todo in todoList">
+                            {{ todo.text }}
+                        </li>
 
                     </ul>
                 </div>
