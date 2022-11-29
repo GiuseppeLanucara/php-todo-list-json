@@ -16,7 +16,24 @@
 
 <body>
 
+    <div id="app">
+        <div class="container mt-4">
+            <h1 class="text-center mb-3">ToDo List</h1>
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                        <li class="list-group-item">A fourth item</li>
+                        <li class="list-group-item">And a fifth one</li>
+                    </ul>
+                </div>
 
+            </div>
+        </div>
+
+    </div>
 
 
     <script src="js/script.js"></script>
